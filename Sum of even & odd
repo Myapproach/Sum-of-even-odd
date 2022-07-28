@@ -1,0 +1,10 @@
+n=int(input()) #input taken from users
+list1=[int(x) for x in str(n)] #int to list by list list comprehensio
+sum_e=0 #variable to store even sum
+sum_o=0 # variable to store odd sum
+for i in list1:
+    if i%2==0: #checking even
+        sum_e+=i #storing even sum
+    else:
+        sum_o+=i # storing odd sum
+print(sum_e,sum_o)
